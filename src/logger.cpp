@@ -88,5 +88,8 @@ Logger::Logger(String file, DebugLevel debugVerbosity):
           full(false)
 {
 };
+void Logger::setFilename(String file){
+  filePath = file;
+}
 
 Logger::~Logger(){}

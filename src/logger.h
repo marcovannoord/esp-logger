@@ -119,6 +119,11 @@ class Logger{
    */
   unsigned int getSizeLimit();
 
+    /**
+   * updates the filename.
+   */
+void setFilename(String file);
+
   /**
    * Tell if the log is full, that means it failed to append() a record
    * due to size limit of log. Flush or reset will empty the log and change
